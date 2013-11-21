@@ -51,7 +51,7 @@ window.CountDownClock = {
         };
     },
         
-    ClockScheduler: function() {
+    Scheduler: function() {
         this._clocks = new Array();
         this.add = function(clock) {
             this._clocks.push(clock);
